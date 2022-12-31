@@ -137,4 +137,4 @@ All feature values are recoded with four significant digits.
 
 8. Missing attribute values: none
 
-9. Class distribution: 357 benign, 212 malignant
+9. diagnosis distribution: 357 benign, 212 malignant

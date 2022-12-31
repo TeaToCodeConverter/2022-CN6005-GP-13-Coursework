@@ -1,6 +1,6 @@
 | names file (C4.5 format) for car evaluation domain
 
-| class values
+| diagnosis values
 
 unacc, acc, good, vgood
 

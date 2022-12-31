@@ -72,9 +72,9 @@
 
 8. Missing Attribute Values: none
 
-9. Class Distribution (number of instances per class)
+9. diagnosis Distribution (number of instances per diagnosis)
 
-   class      N          N[%]
+   diagnosis      N          N[%]
    -----------------------------
    unacc     1210     (70.023 %) 
    acc        384     (22.222 %) 
