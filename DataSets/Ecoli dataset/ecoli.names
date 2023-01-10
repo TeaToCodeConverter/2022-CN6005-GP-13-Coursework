@@ -65,7 +65,7 @@ Reference: "A Knowledge Base for Predicting Protein Localization Sites in
 8. Missing Attribute Values: None.
 
 
-9. Class Distribution. The class is the localization site. Please see Nakai &
+9. diagnosis Distribution. The diagnosis is the localization site. Please see Nakai &
 		       Kanehisa referenced above for more details.
 
   cp  (cytoplasm)                                    143

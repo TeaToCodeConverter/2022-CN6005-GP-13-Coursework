@@ -67,16 +67,14 @@ Input Layer"
 
 Input Layer"
 		rank=same
+		10
+		label="Breast cancer prediction ANN  - group 13
+
+
+
+Input Layer"
+		rank=same
 	}
-	1 -> 10
-	2 -> 10
-	3 -> 10
-	4 -> 10
-	5 -> 10
-	6 -> 10
-	7 -> 10
-	8 -> 10
-	9 -> 10
 	1 -> 11
 	2 -> 11
 	3 -> 11
@@ -86,6 +84,7 @@ Input Layer"
 	7 -> 11
 	8 -> 11
 	9 -> 11
+	10 -> 11
 	1 -> 12
 	2 -> 12
 	3 -> 12
@@ -95,6 +94,7 @@ Input Layer"
 	7 -> 12
 	8 -> 12
 	9 -> 12
+	10 -> 12
 	1 -> 13
 	2 -> 13
 	3 -> 13
@@ -104,6 +104,7 @@ Input Layer"
 	7 -> 13
 	8 -> 13
 	9 -> 13
+	10 -> 13
 	1 -> 14
 	2 -> 14
 	3 -> 14
@@ -113,6 +114,7 @@ Input Layer"
 	7 -> 14
 	8 -> 14
 	9 -> 14
+	10 -> 14
 	1 -> 15
 	2 -> 15
 	3 -> 15
@@ -122,6 +124,7 @@ Input Layer"
 	7 -> 15
 	8 -> 15
 	9 -> 15
+	10 -> 15
 	1 -> 16
 	2 -> 16
 	3 -> 16
@@ -131,6 +134,7 @@ Input Layer"
 	7 -> 16
 	8 -> 16
 	9 -> 16
+	10 -> 16
 	1 -> 17
 	2 -> 17
 	3 -> 17
@@ -140,6 +144,7 @@ Input Layer"
 	7 -> 17
 	8 -> 17
 	9 -> 17
+	10 -> 17
 	1 -> 18
 	2 -> 18
 	3 -> 18
@@ -149,6 +154,7 @@ Input Layer"
 	7 -> 18
 	8 -> 18
 	9 -> 18
+	10 -> 18
 	1 -> 19
 	2 -> 19
 	3 -> 19
@@ -158,11 +164,21 @@ Input Layer"
 	7 -> 19
 	8 -> 19
 	9 -> 19
+	10 -> 19
+	1 -> 20
+	2 -> 20
+	3 -> 20
+	4 -> 20
+	5 -> 20
+	6 -> 20
+	7 -> 20
+	8 -> 20
+	9 -> 20
+	10 -> 20
 	subgraph cluster_1 {
 		color=white
 		rank=same
 		label=" (+20)" labeljust=right labelloc=b
-		10 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
 		11 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
 		12 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
 		13 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
@@ -172,67 +188,13 @@ Input Layer"
 		17 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
 		18 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
 		19 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		20 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
 	}
-	10 -> 20
-	11 -> 20
-	12 -> 20
-	13 -> 20
-	14 -> 20
-	15 -> 20
-	16 -> 20
-	17 -> 20
-	18 -> 20
-	19 -> 20
-	subgraph cluster_2 {
-		color=white
-		20 [label="Dropout Layer" fillcolor="#f39c12" fontcolor=white style=filled]
-	}
-	20 -> 21
-	20 -> 22
-	20 -> 23
-	20 -> 24
-	20 -> 25
-	20 -> 26
-	20 -> 27
-	20 -> 28
-	20 -> 29
-	20 -> 30
-	subgraph cluster_3 {
-		color=white
-		rank=same
-		label=" (+20)" labeljust=right labelloc=b
-		21 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
-		22 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
-		23 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
-		24 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
-		25 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
-		26 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
-		27 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
-		28 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
-		29 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
-		30 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
-	}
-	21 -> 31
-	22 -> 31
-	23 -> 31
-	24 -> 31
-	25 -> 31
-	26 -> 31
-	27 -> 31
-	28 -> 31
-	29 -> 31
-	30 -> 31
-	subgraph cluster_4 {
-		color=white
-		31 [label="Dropout Layer" fillcolor="#f39c12" fontcolor=white style=filled]
-	}
-	31 -> 32
 	subgraph cluster_output {
 		node [color="#2ecc71" fontcolor="#2ecc71" shape=circle style=filled]
 		color=white
 		rank=same
 		labeljust=1
-		32 [color="#e74c3c" fontcolor="#e74c3c" shape=circle style=filled]
 		label="Output Layer" labelloc=bottom
 	}
 	arrowShape=none
